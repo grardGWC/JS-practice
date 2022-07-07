@@ -1,63 +1,75 @@
-//VERY EASY
-var y = 5; 
-var x = 10; 
+// //VERY EASY
+// var y = 5; 
+// var x = 10; 
 
-console.log(`The difference between ${x} and ${y} is ${x-y}`); 
+// console.log(`The difference between ${x} and ${y} is ${x-y}`); 
 
-//EASY
-var nameOne = "Grecia"; 
-var nameTwo = "Ardiles"; 
+// //EASY
+// var nameOne = "Grecia"; 
+// var nameTwo = "Ardiles"; 
 
-console.log(`The name ${nameTwo} is longer than ${nameOne} by ${(nameTwo.length - nameOne.length) + 1} characters`);
+// console.log(`The name ${nameTwo} is longer than ${nameOne} by ${(nameTwo.length - nameOne.length) + 1} characters`);
 
-//MEDIUM
+// //MEDIUM
 
-let person = prompt("Hello! Please type a word"); 
+// let person = prompt("Hello! Please type a word"); 
 
-if(person == person.toUpperCase()){
-    console.log("The user is shouting"); 
-}else if(person == person.toLowerCase()){
-    console.log("The user is whispering"); 
-} else{
-    console.log("The user is speaking normally"); 
-}
+// if(person == person.toUpperCase()){
+//     console.log("The user is shouting"); 
+// }else if(person == person.toLowerCase()){
+//     console.log("The user is whispering"); 
+// } else{
+//     console.log("The user is speaking normally"); 
+// }
 
-//HARD
-function add(num1, num2){
-    return num1 + num2;  
-}
-function subtract(num1, num2){
-    return num1 - num2;  
-}
-function multiply(num1, num2){
-    return num1 * num2; 
-}
-function divide(num1, num2){
-    return num1 / num2; 
-}
+// //HARD
+// function add(num1, num2){
+//     return num1 + num2;  
+// }
+// function subtract(num1, num2){
+//     return num1 - num2;  
+// }
+// function multiply(num1, num2){
+//     return num1 * num2; 
+// }
+// function divide(num1, num2){
+//     return num1 / num2; 
+// }
 
-//VERY HARD
+// //VERY HARD
 
-let user = prompt("Choose a math function: + , - , * , / "); 
-let num1 = prompt("Choose your first number:"); 
-let num2 = prompt("Choose your second number:"); 
+// let user = prompt("Choose a math function: + , - , * , / "); 
+// let num1 = prompt("Choose your first number:"); 
+// let num2 = prompt("Choose your second number:"); 
 
-if (user == "+"){
-    console.log(`${num1} + ${num2} = ${add(Number(num1), Number(num2))}`); 
-}else if(user == "-"){
-    console.log(`${num1} - ${num2} = ${subtract(Number(num1), Number(num2))}`);
-}else if(user == "*"){
-    console.log(`${num1} * ${num2} = ${multiply(Number(num1), Number(num2))}`);
-}else if(user == "/"){
-    console.log(`${num1} / ${num2} = ${divide(Number(num1), Number(num2))}`);
+// if (user == "+"){
+//     console.log(`${num1} + ${num2} = ${add(Number(num1), Number(num2))}`); 
+// }else if(user == "-"){
+//     console.log(`${num1} - ${num2} = ${subtract(Number(num1), Number(num2))}`);
+// }else if(user == "*"){
+//     console.log(`${num1} * ${num2} = ${multiply(Number(num1), Number(num2))}`);
+// }else if(user == "/"){
+//     console.log(`${num1} / ${num2} = ${divide(Number(num1), Number(num2))}`);
+// }else{
+//     console.log("You have inputted an incorrect value"); 
+// }
+
+
+
+
+var myPod = []; 
+myPod[0] = "Grecia"; 
+myPod[1] = "Megan"; 
+myPod[2] = "Nathaly"; 
+myPod[3] = "Maggie"; 
+// myPod[4] = "Lucy";
+
+if(myPod.indexOf("Lucy") >= 0){
+    console.log(`Lucy is my Pod leader`)
 }else{
-    console.log("You have inputted an incorrect value"); 
+   console.log(`Lucy is NOT my Pod leader`) 
 }
-
-
-
-
-
+// console.log(`My pod has ${myPod.length}`)
 
 
 
